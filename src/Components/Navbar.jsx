@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
-            <div className="nav_bar">
+            <div className="nav_bar sticky-top">
                 <div className="left"> <h3>Shopping Cart Project</h3></div>
                 <div className="middle">
 
