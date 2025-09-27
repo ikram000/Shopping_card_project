@@ -3,8 +3,8 @@ import { Products } from "../data";
 import { useSelector, useDispatch } from "react-redux";
 import {addToCart,selectCartItems} from '../redux/cartSlice'
 
-// import { ToastContainer, toast,Bounce } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast,Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Product = () => {
   const dispatch = useDispatch()
@@ -27,7 +27,7 @@ const Product = () => {
   }
   return (
     <div>
-      {/* <ToastContainer /> */}
+      <ToastContainer />
       <div className="container">
         <div className="row">
           {Products.map((item) => (
